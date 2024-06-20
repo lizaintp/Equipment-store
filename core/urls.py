@@ -23,6 +23,7 @@ api_urlpatterns = [
     path('users/', include('apps.users.urls')),
     path('product/', include('apps.product.urls')),
     path('category/', include('apps.category.urls')),
+    path('basket/', include('apps.basket.urls')),
 ]
 
 urlpatterns = [
